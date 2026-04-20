@@ -294,6 +294,11 @@ export const TEMPLATE_EXAMPLES_FEATURES = [
     label: 'Invoices',
   },
   {
+    name: 'Features ➝ documents ➝ event proposal',
+    href: '/examples/features/event-proposal',
+    label: 'Event Proposal',
+  },
+  {
     name: 'Features ➝ documents ➝ statement of work',
     href: '/examples/features/statement-of-work',
     label: 'Statement of Work',
