@@ -1,16 +1,16 @@
 import * as React from 'react';
 import * as Utilities from '@common/utilities';
 
-import ChartLegend from '@system/graphs/ChartLegend';
-import CandlestickChart from '@system/graphs/CandlestickChart';
-import DemoSystemDataVisualizationSidebar, { VISUALIZATION_OPTIONS } from '@demos/DemoSystemDataVisualizationSidebar';
-import GlobalModalManager from '@system/modals/GlobalModalManager';
-import Navigation from '@system/Navigation';
-import Page from '@components/Page';
-import TwoColumnLayoutFull from '@system/layouts/TwoColumnLayoutFull';
+import ChartLegend from '@elements/charts/ChartLegend';
+import CandlestickChart from '@elements/charts/CandlestickChart';
+import DemoSystemDataVisualizationSidebar, { VISUALIZATION_OPTIONS } from '@patterns/demos/DemoSystemDataVisualizationSidebar';
+import GlobalModalManager from '@runtime/modals/GlobalModalManager';
+import Navigation from '@patterns/chrome/Navigation';
+import Page from '@patterns/chrome/Page';
+import TwoColumnLayoutFull from '@elements/layouts/TwoColumnLayoutFull';
 
-import { H2, P, Title, Text, SubText } from '@system/typography';
-import { FormHeading, FormSubHeading, FormParagraph, InputLabel } from '@system/typography/forms';
+import { H2, P, Title, Text, SubText } from '@elements/type';
+import { FormHeading, FormSubHeading, FormParagraph, InputLabel } from '@elements/type/forms';
 
 const EXAMPLE_DUMMY_DATA = [
   { date: 'January', open: 30, high: 110, low: 20, close: 105 },

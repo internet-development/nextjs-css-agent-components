@@ -2,11 +2,11 @@ import * as React from 'react';
 import * as Server from '@common/server';
 import * as Utilities from '@common/utilities';
 
-import FlippableTiltCard from '@system/FlippableTiltCard';
-import GlobalModalManager from '@system/modals/GlobalModalManager';
-import GridLayout from '@system/layouts/GridLayout';
-import Navigation from '@system/Navigation';
-import Page from '@components/Page';
+import FlippableTiltCard from '@elements/visuals/FlippableTiltCard';
+import GlobalModalManager from '@runtime/modals/GlobalModalManager';
+import GridLayout from '@elements/layouts/GridLayout';
+import Navigation from '@patterns/chrome/Navigation';
+import Page from '@patterns/chrome/Page';
 
 function ExampleFlippableTiltCard(props) {
   return (

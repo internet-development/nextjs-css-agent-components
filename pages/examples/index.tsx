@@ -1,13 +1,13 @@
 import * as React from 'react';
 
-import Content from '@system/layouts/Content';
-import Footer from '@system/Footer';
-import GlobalModalManager from '@system/modals/GlobalModalManager';
-import Navigation from '@system/Navigation';
-import Page from '@components/Page';
-import SectionFullHeight from '@system/sections/SectionFullHeight';
+import Content from '@elements/layouts/Content';
+import Footer from '@components/Footer';
+import GlobalModalManager from '@runtime/modals/GlobalModalManager';
+import Navigation from '@patterns/chrome/Navigation';
+import Page from '@patterns/chrome/Page';
+import SectionFullHeight from '@elements/sections/SectionFullHeight';
 
-import { H1, Lead } from '@system/typography';
+import { H1, Lead } from '@elements/type';
 
 function ExampleBase(props) {
   return (

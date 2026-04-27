@@ -1,16 +1,16 @@
 import * as React from 'react';
 import * as Utilities from '@common/utilities';
 
-import ChartLegend from '@system/graphs/ChartLegend';
-import DemoSystemDataVisualizationSidebar, { VISUALIZATION_OPTIONS } from '@demos/DemoSystemDataVisualizationSidebar';
-import GlobalModalManager from '@system/modals/GlobalModalManager';
-import GridLayout from '@system/layouts/GridLayout';
-import HistogramChart from '@system/graphs/HistogramChart';
-import Navigation from '@system/Navigation';
-import Page from '@components/Page';
-import TwoColumnLayoutFull from '@system/layouts/TwoColumnLayoutFull';
+import ChartLegend from '@elements/charts/ChartLegend';
+import DemoSystemDataVisualizationSidebar, { VISUALIZATION_OPTIONS } from '@patterns/demos/DemoSystemDataVisualizationSidebar';
+import GlobalModalManager from '@runtime/modals/GlobalModalManager';
+import GridLayout from '@elements/layouts/GridLayout';
+import HistogramChart from '@elements/charts/HistogramChart';
+import Navigation from '@patterns/chrome/Navigation';
+import Page from '@patterns/chrome/Page';
+import TwoColumnLayoutFull from '@elements/layouts/TwoColumnLayoutFull';
 
-import { H2, P, Title, Text, SubText } from '@system/typography';
+import { H2, P, Title, Text, SubText } from '@elements/type';
 
 const EXAMPLE_DUMMY_DATA = [
   {

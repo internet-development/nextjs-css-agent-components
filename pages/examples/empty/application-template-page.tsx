@@ -3,11 +3,11 @@ import * as Server from '@common/server';
 import * as Utilities from '@common/utilities';
 
 import Cookies from '@modules/cookies';
-import GlobalModalManager from '@system/modals/GlobalModalManager';
-import KeyHeader from '@system/KeyHeader';
-import Page from '@components/Page';
-import ThinAppLayout from '@system/layouts/ThinAppLayout';
-import ThinAppLayoutHeader from '@system/layouts/ThinAppLayoutHeader';
+import GlobalModalManager from '@runtime/modals/GlobalModalManager';
+import KeyHeader from '@patterns/chrome/KeyHeader';
+import Page from '@patterns/chrome/Page';
+import ThinAppLayout from '@elements/layouts/ThinAppLayout';
+import ThinAppLayoutHeader from '@elements/layouts/ThinAppLayoutHeader';
 
 function ExampleEmptyApplicationTemplate(props) {
   const [key, setKey] = React.useState<string>(props.sessionKey);

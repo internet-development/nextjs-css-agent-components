@@ -1,16 +1,16 @@
 import * as React from 'react';
 import * as Utilities from '@common/utilities';
 
-import ChartLegend from '@system/graphs/ChartLegend';
-import DemoSystemDataVisualizationSidebar, { VISUALIZATION_OPTIONS } from '@demos/DemoSystemDataVisualizationSidebar';
-import DivergingStackedBarChart from '@root/system/graphs/DivergingStackedBarChart';
-import GlobalModalManager from '@system/modals/GlobalModalManager';
-import HorizontalBarChart from '@system/graphs/HorizontalBarChart';
-import Navigation from '@system/Navigation';
-import Page from '@components/Page';
-import TwoColumnLayoutFull from '@system/layouts/TwoColumnLayoutFull';
+import ChartLegend from '@elements/charts/ChartLegend';
+import DemoSystemDataVisualizationSidebar, { VISUALIZATION_OPTIONS } from '@patterns/demos/DemoSystemDataVisualizationSidebar';
+import DivergingStackedBarChart from '@elements/charts/DivergingStackedBarChart';
+import GlobalModalManager from '@runtime/modals/GlobalModalManager';
+import HorizontalBarChart from '@elements/charts/HorizontalBarChart';
+import Navigation from '@patterns/chrome/Navigation';
+import Page from '@patterns/chrome/Page';
+import TwoColumnLayoutFull from '@elements/layouts/TwoColumnLayoutFull';
 
-import { H2, P, SubText, Text, Title } from '@system/typography';
+import { H2, P, SubText, Text, Title } from '@elements/type';
 
 const EXAMPLE_DUMMY_DATA = [
   {

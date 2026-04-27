@@ -1,15 +1,15 @@
 import * as React from 'react';
 import * as Utilities from '@common/utilities';
 
-import ChartPlaceholder from '@system/graphs/ChartPlaceholder';
-import DemoSystemDataVisualizationSidebar, { VISUALIZATION_OPTIONS } from '@demos/DemoSystemDataVisualizationSidebar';
-import DonutChart from '@system/graphs/DonutChart';
-import GlobalModalManager from '@system/modals/GlobalModalManager';
-import Navigation from '@system/Navigation';
-import Page from '@components/Page';
-import TwoColumnLayoutFull from '@system/layouts/TwoColumnLayoutFull';
+import ChartPlaceholder from '@elements/charts/ChartPlaceholder';
+import DemoSystemDataVisualizationSidebar, { VISUALIZATION_OPTIONS } from '@patterns/demos/DemoSystemDataVisualizationSidebar';
+import DonutChart from '@elements/charts/DonutChart';
+import GlobalModalManager from '@runtime/modals/GlobalModalManager';
+import Navigation from '@patterns/chrome/Navigation';
+import Page from '@patterns/chrome/Page';
+import TwoColumnLayoutFull from '@elements/layouts/TwoColumnLayoutFull';
 
-import { H2, P, Title, Text, SubText } from '@system/typography';
+import { H2, P, Title, Text, SubText } from '@elements/type';
 
 function ExampleSystemDataVisualizationDonut(props) {
   // TODO(jimmylee)

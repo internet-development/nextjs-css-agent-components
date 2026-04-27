@@ -1,17 +1,17 @@
 import * as React from 'react';
 import * as Utilities from '@common/utilities';
 
-import BubbleChart from '@system/graphs/BubbleChart';
-import ChartLegend from '@system/graphs/ChartLegend';
-import DemoSystemDataVisualizationSidebar, { VISUALIZATION_OPTIONS } from '@demos/DemoSystemDataVisualizationSidebar';
-import GlobalModalManager from '@system/modals/GlobalModalManager';
-import GridLayout from '@system/layouts/GridLayout';
-import GroupedBubblesChart from '@root/system/graphs/GroupedBubblesChart';
-import Navigation from '@system/Navigation';
-import Page from '@components/Page';
-import TwoColumnLayoutFull from '@system/layouts/TwoColumnLayoutFull';
+import BubbleChart from '@elements/charts/BubbleChart';
+import ChartLegend from '@elements/charts/ChartLegend';
+import DemoSystemDataVisualizationSidebar, { VISUALIZATION_OPTIONS } from '@patterns/demos/DemoSystemDataVisualizationSidebar';
+import GlobalModalManager from '@runtime/modals/GlobalModalManager';
+import GridLayout from '@elements/layouts/GridLayout';
+import GroupedBubblesChart from '@elements/charts/GroupedBubblesChart';
+import Navigation from '@patterns/chrome/Navigation';
+import Page from '@patterns/chrome/Page';
+import TwoColumnLayoutFull from '@elements/layouts/TwoColumnLayoutFull';
 
-import { H2, P, Title, Text, SubText } from '@system/typography';
+import { H2, P, Title, Text, SubText } from '@elements/type';
 
 const EXAMPLE_DUMMY_DATA = [
   { x: 10, y: 20, value: 30, category: 'Category 1' },

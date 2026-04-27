@@ -1,9 +1,9 @@
 import * as React from 'react';
 import * as Utilities from '@common/utilities';
 
-import DemoDocumentationConceptOne from '@demos/DemoDocumentationConceptOne';
-import GlobalModalManager from '@system/modals/GlobalModalManager';
-import Page from '@components/Page';
+import DemoDocumentationConceptOne from '@patterns/demos/DemoDocumentationConceptOne';
+import GlobalModalManager from '@runtime/modals/GlobalModalManager';
+import Page from '@patterns/chrome/Page';
 
 function ExampleDocumentationOne(props) {
   return (

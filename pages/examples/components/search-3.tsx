@@ -1,10 +1,10 @@
 import * as React from 'react';
 
-import DemoSearchComponentThree from '@demos/DemoSearchComponentThree';
-import Footer from '@system/Footer';
-import GlobalModalManager from '@system/modals/GlobalModalManager';
-import Navigation from '@system/Navigation';
-import Page from '@components/Page';
+import DemoSearchComponentThree from '@patterns/demos/DemoSearchComponentThree';
+import Footer from '@components/Footer';
+import GlobalModalManager from '@runtime/modals/GlobalModalManager';
+import Navigation from '@patterns/chrome/Navigation';
+import Page from '@patterns/chrome/Page';
 
 function ExampleSearchVersionThree(props) {
   return (

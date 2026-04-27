@@ -1,10 +1,10 @@
 import * as React from 'react';
 
-import Navigation from '@system/Navigation';
-import Page from '@components/Page';
-import GlobalModalManager from '@system/modals/GlobalModalManager';
-import GradientButton from '@root/demos/GradientButton';
-import GridLayout from '@system/layouts/GridLayout';
+import Navigation from '@patterns/chrome/Navigation';
+import Page from '@patterns/chrome/Page';
+import GlobalModalManager from '@runtime/modals/GlobalModalManager';
+import GradientButton from '@patterns/demos/GradientButton';
+import GridLayout from '@elements/layouts/GridLayout';
 
 export default function ExampleGradientButton() {
   return (

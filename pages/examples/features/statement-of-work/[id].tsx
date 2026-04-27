@@ -1,16 +1,16 @@
-import styles from '@system/documents/index.module.scss';
+import styles from '@elements/marks/index.module.css';
 
 import * as Queries from '@common/queries';
 import * as React from 'react';
 import * as Utilities from '@common/utilities';
 
-import IntDev from '@system/svg/IntDev';
-import InvoiceLayout from '@system/layouts/InvoiceLayout';
-import KeyHeader from '@system/KeyHeader';
-import Page from '@components/Page';
-import SignatureBox from '@system/documents/SignatureBox';
+import IntDev from '@elements/icons/IntDev';
+import InvoiceLayout from '@elements/layouts/InvoiceLayout';
+import KeyHeader from '@patterns/chrome/KeyHeader';
+import Page from '@patterns/chrome/Page';
+import SignatureBox from '@elements/marks/SignatureBox';
 
-import { H3, H4, P, Title, Text } from '@system/typography';
+import { H3, H4, P, Title, Text } from '@elements/type';
 
 function ExampleSOW(props) {
   // NOTE(jimmylee):

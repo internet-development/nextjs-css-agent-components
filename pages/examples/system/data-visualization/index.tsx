@@ -1,14 +1,14 @@
 import * as React from 'react';
 import * as Utilities from '@common/utilities';
 
-import DemoSystemDataVisualizationSidebar, { VISUALIZATION_OPTIONS, VISUALIZATION_OPTIONS_HEADINGS } from '@demos/DemoSystemDataVisualizationSidebar';
-import GlobalModalManager from '@system/modals/GlobalModalManager';
-import Navigation from '@system/Navigation';
-import Page from '@components/Page';
-import Table from '@system/Table';
-import TwoColumnLayoutFull from '@system/layouts/TwoColumnLayoutFull';
+import DemoSystemDataVisualizationSidebar, { VISUALIZATION_OPTIONS, VISUALIZATION_OPTIONS_HEADINGS } from '@patterns/demos/DemoSystemDataVisualizationSidebar';
+import GlobalModalManager from '@runtime/modals/GlobalModalManager';
+import Navigation from '@patterns/chrome/Navigation';
+import Page from '@patterns/chrome/Page';
+import Table from '@components/Table';
+import TwoColumnLayoutFull from '@elements/layouts/TwoColumnLayoutFull';
 
-import { H2, H4, P, Title, Text, SubText } from '@system/typography';
+import { H2, H4, P, Title, Text, SubText } from '@elements/type';
 
 function ExampleSystemDataVisualization(props) {
   return (

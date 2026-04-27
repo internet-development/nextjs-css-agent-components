@@ -3,16 +3,16 @@ import * as React from 'react';
 import * as Server from '@common/server';
 import * as Utilities from '@common/utilities';
 
-import Button from '@system/Button';
-import Content from '@system/layouts/Content';
-import Footer from '@system/Footer';
-import GlobalModalManager from '@system/modals/GlobalModalManager';
-import ModalAuthentication from '@demos/modals/ModalAuthentication';
-import Navigation from '@system/Navigation';
-import Page from '@components/Page';
-import SectionFullHeight from '@system/sections/SectionFullHeight';
+import Button from '@components/Button';
+import Content from '@elements/layouts/Content';
+import Footer from '@components/Footer';
+import GlobalModalManager from '@runtime/modals/GlobalModalManager';
+import ModalAuthentication from '@patterns/modals/ModalAuthentication';
+import Navigation from '@patterns/chrome/Navigation';
+import Page from '@patterns/chrome/Page';
+import SectionFullHeight from '@elements/sections/SectionFullHeight';
 
-import { useModals } from '@root/system/modals/ModalContext';
+import { useModals } from '@runtime/modals/ModalContext';
 
 function ExampleModals(props) {
   const modals = useModals();

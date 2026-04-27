@@ -2,10 +2,10 @@ import * as React from 'react';
 import * as Server from '@common/server';
 import * as Utilities from '@common/utilities';
 
-import GlobalModalManager from '@system/modals/GlobalModalManager';
-import GridLayout from '@system/layouts/GridLayout';
-import KeyHeader from '@system/KeyHeader';
-import Page from '@components/Page';
+import GlobalModalManager from '@runtime/modals/GlobalModalManager';
+import GridLayout from '@elements/layouts/GridLayout';
+import KeyHeader from '@patterns/chrome/KeyHeader';
+import Page from '@patterns/chrome/Page';
 
 function ExampleEmptyGridTemplate(props) {
   const [key, setKey] = React.useState<string>(props.sessionKey);

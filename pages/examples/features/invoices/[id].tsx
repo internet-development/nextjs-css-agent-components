@@ -3,12 +3,12 @@ import * as React from 'react';
 import * as Server from '@common/server';
 import * as Utilities from '@common/utilities';
 
-import IntDev from '@system/svg/IntDev';
-import InvoiceLayout from '@system/layouts/InvoiceLayout';
-import KeyHeader from '@system/KeyHeader';
-import Page from '@components/Page';
+import IntDev from '@elements/icons/IntDev';
+import InvoiceLayout from '@elements/layouts/InvoiceLayout';
+import KeyHeader from '@patterns/chrome/KeyHeader';
+import Page from '@patterns/chrome/Page';
 
-import { Title, Text } from '@system/typography';
+import { Title, Text } from '@elements/type';
 
 function ExampleInvoice(props) {
   return (

@@ -3,24 +3,24 @@ import * as React from 'react';
 import * as Server from '@common/server';
 import * as Utilities from '@common/utilities';
 
-import ActionItem from '@system/documents/ActionItem';
-import Button from '@system/Button';
-import Checkbox from '@system/Checkbox';
+import ActionItem from '@elements/marks/ActionItem';
+import Button from '@components/Button';
+import Checkbox from '@components/Checkbox';
 import Cookies from '@modules/cookies';
-import Content from '@system/layouts/Content';
-import GlobalModalManager from '@system/modals/GlobalModalManager';
-import Input from '@system/Input';
-import KeyHeader from '@system/KeyHeader';
-import ModalError from '@demos/modals/ModalError';
-import MonospacePreview from '@system/MonospacePreview';
-import Page from '@components/Page';
-import TextArea from '@system/TextArea';
-import ThinAppLayoutHeader from '@system/layouts/ThinAppLayoutHeader';
-import ThreeColumnAppLayout from '@system/layouts/ThreeColumnAppLayout';
+import Content from '@elements/layouts/Content';
+import GlobalModalManager from '@runtime/modals/GlobalModalManager';
+import Input from '@elements/controls/Input';
+import KeyHeader from '@patterns/chrome/KeyHeader';
+import ModalError from '@patterns/modals/ModalError';
+import MonospacePreview from '@components/MonospacePreview';
+import Page from '@patterns/chrome/Page';
+import TextArea from '@elements/controls/TextArea';
+import ThinAppLayoutHeader from '@elements/layouts/ThinAppLayoutHeader';
+import ThreeColumnAppLayout from '@elements/layouts/ThreeColumnAppLayout';
 
-import { P } from '@system/typography';
-import { FormHeading, FormParagraph, InputLabel } from '@system/typography/forms';
-import { useModals } from '@root/system/modals/ModalContext';
+import { P } from '@elements/type';
+import { FormHeading, FormParagraph, InputLabel } from '@elements/type/forms';
+import { useModals } from '@runtime/modals/ModalContext';
 
 const DOCUMENT_TYPE = 'EVENT_PROPOSAL';
 

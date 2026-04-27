@@ -1,16 +1,16 @@
 import * as React from 'react';
 import * as Utilities from '@common/utilities';
 
-import BarGraphWithLines from '@system/graphs/BarGraphWithLines';
-import ChartLegend from '@system/graphs/ChartLegend';
-import ColumnChart from '@system/graphs/ColumnChart';
-import DemoSystemDataVisualizationSidebar, { VISUALIZATION_OPTIONS } from '@demos/DemoSystemDataVisualizationSidebar';
-import GlobalModalManager from '@system/modals/GlobalModalManager';
-import Navigation from '@system/Navigation';
-import Page from '@components/Page';
-import TwoColumnLayoutFull from '@system/layouts/TwoColumnLayoutFull';
+import BarGraphWithLines from '@elements/charts/BarGraphWithLines';
+import ChartLegend from '@elements/charts/ChartLegend';
+import ColumnChart from '@elements/charts/ColumnChart';
+import DemoSystemDataVisualizationSidebar, { VISUALIZATION_OPTIONS } from '@patterns/demos/DemoSystemDataVisualizationSidebar';
+import GlobalModalManager from '@runtime/modals/GlobalModalManager';
+import Navigation from '@patterns/chrome/Navigation';
+import Page from '@patterns/chrome/Page';
+import TwoColumnLayoutFull from '@elements/layouts/TwoColumnLayoutFull';
 
-import { H2, P, Title, Text, SubText } from '@system/typography';
+import { H2, P, Title, Text, SubText } from '@elements/type';
 
 const EXAMPLE_DUMMY_DATA = [
   { category: 'A', positive: 10, neutral: 5, negative: -5, positive_lower_ci: 8, positive_upper_ci: 12, negative_lower_ci: -6, negative_upper_ci: -4 },

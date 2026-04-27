@@ -1,18 +1,18 @@
 import * as React from 'react';
 import * as Utilities from '@common/utilities';
 
-import GlobalModalManager from '@system/modals/GlobalModalManager';
-import GridLayout from '@system/layouts/GridLayout';
-import ImageBlock from '@system/ImageBlock';
-import IsometricProductBox from '@system/IsometricProductBox';
-import Navigation from '@system/Navigation';
-import Page from '@components/Page';
-import Table from '@system/Table';
-import Tag from '@system/documents/Tag';
-import TwoColumnLayoutFull from '@system/layouts/TwoColumnLayoutFull';
+import GlobalModalManager from '@runtime/modals/GlobalModalManager';
+import GridLayout from '@elements/layouts/GridLayout';
+import ImageBlock from '@elements/visuals/ImageBlock';
+import IsometricProductBox from '@elements/visuals/IsometricProductBox';
+import Navigation from '@patterns/chrome/Navigation';
+import Page from '@patterns/chrome/Page';
+import Table from '@components/Table';
+import Tag from '@elements/marks/Tag';
+import TwoColumnLayoutFull from '@elements/layouts/TwoColumnLayoutFull';
 
-import { H1, H2, H3, H4, Lead, SubLead, P, Title, Text, SubTitle, SubText, UnitLabel } from '@system/typography';
-import { FormHeading, FormSubHeading, FormParagraph, InputLabel } from '@system/typography/forms';
+import { H1, H2, H3, H4, Lead, SubLead, P, Title, Text, SubTitle, SubText, UnitLabel } from '@elements/type';
+import { FormHeading, FormSubHeading, FormParagraph, InputLabel } from '@elements/type/forms';
 
 const TABLE_HEADINGS = [``, `CSS Variable`, `Preview`];
 const COPY = `My heart had great experience of wisdom and knowledge, [1:17] and I gave my heart to know wisdom, and to know madness and folly: I perceived that this also is vexation of spirit. For in much wisdom is much grief: and he that increaseth knowledge increaseth sorrow.`;

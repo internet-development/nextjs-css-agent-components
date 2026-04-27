@@ -2,18 +2,18 @@ import * as React from 'react';
 import * as Server from '@common/server';
 import * as Utilities from '@common/utilities';
 
-import AreaChart from '@root/system/graphs/AreaChart';
-import AppLayout from '@system/layouts/AppLayout';
+import AreaChart from '@elements/charts/AreaChart';
+import AppLayout from '@elements/layouts/AppLayout';
 import Cookies from '@modules/cookies';
-import GlobalModalManager from '@system/modals/GlobalModalManager';
-import KeyHeader from '@system/KeyHeader';
-import Page from '@components/Page';
-import Table from '@system/Table';
-import ThinAppLayout from '@system/layouts/ThinAppLayout';
-import ThinAppLayoutHeader from '@system/layouts/ThinAppLayoutHeader';
+import GlobalModalManager from '@runtime/modals/GlobalModalManager';
+import KeyHeader from '@patterns/chrome/KeyHeader';
+import Page from '@patterns/chrome/Page';
+import Table from '@components/Table';
+import ThinAppLayout from '@elements/layouts/ThinAppLayout';
+import ThinAppLayoutHeader from '@elements/layouts/ThinAppLayoutHeader';
 
-import { H1, Text, SubText, UnitLabel } from '@system/typography';
-import { FormHeading, FormParagraph } from '@system/typography/forms';
+import { H1, Text, SubText, UnitLabel } from '@elements/type';
+import { FormHeading, FormParagraph } from '@elements/type/forms';
 
 function ExampleStock(props) {
   const [key, setKey] = React.useState<string>(props.sessionKey);

@@ -3,13 +3,13 @@ import * as Server from '@common/server';
 import * as Utilities from '@common/utilities';
 
 import Cookies from '@modules/cookies';
-import GlobalModalManager from '@system/modals/GlobalModalManager';
-import GridLayout from '@system/layouts/GridLayout';
-import Navigation from '@system/Navigation';
-import Page from '@components/Page';
-import ResizableMonospaceWindow from '@system/ResizableMonospaceWindow';
+import GlobalModalManager from '@runtime/modals/GlobalModalManager';
+import GridLayout from '@elements/layouts/GridLayout';
+import Navigation from '@patterns/chrome/Navigation';
+import Page from '@patterns/chrome/Page';
+import ResizableMonospaceWindow from '@elements/visuals/ResizableMonospaceWindow';
 
-import { P } from '@system/typography';
+import { P } from '@elements/type';
 
 function ExampleWindowsConnected(props) {
   const customParagraphStyle = { fontFamily: 'var(--font-family-serif)', fontSize: '16px', lineHeight: '1.5', margin: 24 };

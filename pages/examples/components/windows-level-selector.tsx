@@ -2,22 +2,22 @@ import * as React from 'react';
 import * as Server from '@common/server';
 import * as Utilities from '@common/utilities';
 
-import ActionItem from '@system/documents/ActionItem';
-import Button from '@system/Button';
-import Checkbox from '@system/Checkbox';
-import Content from '@system/layouts/Content';
-import DemoLevelsExample from '@demos/DemoLevelsExample';
-import GlobalModalManager from '@system/modals/GlobalModalManager';
-import GridLayout from '@system/layouts/GridLayout';
-import Input from '@system/Input';
-import Navigation from '@system/Navigation';
-import Page from '@components/Page';
-import Select from '@system/Select';
-import TextArea from '@system/TextArea';
-import TwoColumnLayoutSidebar from '@system/layouts/TwoColumnLayoutSidebar';
+import ActionItem from '@elements/marks/ActionItem';
+import Button from '@components/Button';
+import Checkbox from '@components/Checkbox';
+import Content from '@elements/layouts/Content';
+import DemoLevelsExample from '@patterns/demos/DemoLevelsExample';
+import GlobalModalManager from '@runtime/modals/GlobalModalManager';
+import GridLayout from '@elements/layouts/GridLayout';
+import Input from '@elements/controls/Input';
+import Navigation from '@patterns/chrome/Navigation';
+import Page from '@patterns/chrome/Page';
+import Select from '@components/Select';
+import TextArea from '@elements/controls/TextArea';
+import TwoColumnLayoutSidebar from '@elements/layouts/TwoColumnLayoutSidebar';
 
-import { FormHeading, FormParagraph, InputLabel } from '@system/typography/forms';
-import { H1, H2, H3, H4, Lead, SubLead, P, Title, Text, SubTitle, SubText, UnitLabel } from '@system/typography';
+import { FormHeading, FormParagraph, InputLabel } from '@elements/type/forms';
+import { H1, H2, H3, H4, Lead, SubLead, P, Title, Text, SubTitle, SubText, UnitLabel } from '@elements/type';
 
 const PLACEHOLDER = `A large ramp`;
 

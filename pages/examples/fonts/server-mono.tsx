@@ -1,17 +1,17 @@
 import * as React from 'react';
 import * as Utilities from '@common/utilities';
 
-import Button from '@system/Button';
-import GlobalModalManager from '@system/modals/GlobalModalManager';
-import GridLayout from '@system/layouts/GridLayout';
-import Navigation from '@system/Navigation';
-import Page from '@components/Page';
-import Table from '@system/Table';
-import Tag from '@system/documents/Tag';
-import TwoColumnLayoutFull from '@system/layouts/TwoColumnLayoutFull';
+import Button from '@components/Button';
+import GlobalModalManager from '@runtime/modals/GlobalModalManager';
+import GridLayout from '@elements/layouts/GridLayout';
+import Navigation from '@patterns/chrome/Navigation';
+import Page from '@patterns/chrome/Page';
+import Table from '@components/Table';
+import Tag from '@elements/marks/Tag';
+import TwoColumnLayoutFull from '@elements/layouts/TwoColumnLayoutFull';
 
-import { H1, H2, H3, H4, Lead, SubLead, P, Title, Text, SubTitle, SubText } from '@system/typography';
-import { FormHeading, FormSubHeading } from '@system/typography/forms';
+import { H1, H2, H3, H4, Lead, SubLead, P, Title, Text, SubTitle, SubText } from '@elements/type';
+import { FormHeading, FormSubHeading } from '@elements/type/forms';
 
 const TABLE_HEADINGS = [``, ``, ``];
 const COPY = `Ín this grãnd tapestry óf existênce, wê, ăs sentient bēings, pōssess båth the sacred right ànd the solèmń duty tó ãctively mold the wörld according to our shared vísiôns and individūal prefěrençes. Recognizing that öur reälity is a līving constrüct, bõrn frôm our actions (87% in America), perceptions (65% in America), ãnd interpretations (48% in America), wę mùst embrace the diversity ôf perspectives and the éthical respōnsibilities thåt come wíth sūch pôwer. Research shows that 73% of individuals in America believe in the power of collective vision, while 59% acknowledge the role of individual preferences in shaping reality.`;

@@ -3,11 +3,11 @@ import * as Server from '@common/server';
 import * as Utilities from '@common/utilities';
 
 import Cookies from '@modules/cookies';
-import GlobalModalManager from '@system/modals/GlobalModalManager';
-import IsometricGridLayout from '@system/layouts/IsometricGridLayout';
-import IsometricRect from '@system/IsometricRect';
-import KeyHeader from '@system/KeyHeader';
-import Page from '@components/Page';
+import GlobalModalManager from '@runtime/modals/GlobalModalManager';
+import IsometricGridLayout from '@elements/layouts/IsometricGridLayout';
+import IsometricRect from '@elements/visuals/IsometricRect';
+import KeyHeader from '@patterns/chrome/KeyHeader';
+import Page from '@patterns/chrome/Page';
 
 function ExampleEmptyIsometricGridTemplate(props) {
   const [key, setKey] = React.useState<string>(props.sessionKey);

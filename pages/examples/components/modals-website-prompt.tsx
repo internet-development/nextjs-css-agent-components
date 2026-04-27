@@ -1,15 +1,15 @@
 import * as React from 'react';
 
-import Button from '@system/Button';
-import Content from '@system/layouts/Content';
-import Footer from '@system/Footer';
-import GlobalModalManager from '@system/modals/GlobalModalManager';
-import Navigation from '@system/Navigation';
-import Page from '@components/Page';
-import SectionFullHeight from '@system/sections/SectionFullHeight';
-import ModalWebsitePrompt from '@demos/modals/ModalWebsitePrompt';
+import Button from '@components/Button';
+import Content from '@elements/layouts/Content';
+import Footer from '@components/Footer';
+import GlobalModalManager from '@runtime/modals/GlobalModalManager';
+import Navigation from '@patterns/chrome/Navigation';
+import Page from '@patterns/chrome/Page';
+import SectionFullHeight from '@elements/sections/SectionFullHeight';
+import ModalWebsitePrompt from '@patterns/modals/ModalWebsitePrompt';
 
-import { useModals } from '@root/system/modals/ModalContext';
+import { useModals } from '@runtime/modals/ModalContext';
 
 function ExampleModalsWebsitePrompt(props) {
   const modals = useModals();

@@ -1,9 +1,9 @@
 import * as React from 'react';
 
-import GlobalModalManager from '@system/modals/GlobalModalManager';
-import Navigation from '@system/Navigation';
-import Page from '@components/Page';
-import ToolbarControlsFixed from '@system/ToolbarControlsFixed';
+import GlobalModalManager from '@runtime/modals/GlobalModalManager';
+import Navigation from '@patterns/chrome/Navigation';
+import Page from '@patterns/chrome/Page';
+import ToolbarControlsFixed from '@elements/visuals/ToolbarControlsFixed';
 
 function ExampleComponentsApplicationToolbar(props) {
   return (

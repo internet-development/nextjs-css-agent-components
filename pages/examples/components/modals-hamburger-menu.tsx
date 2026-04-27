@@ -1,9 +1,9 @@
 import * as React from 'react';
 
-import GlobalModalManager from '@system/modals/GlobalModalManager';
-import HamburgerMenuButton from '@system/HamburgerMenuButton';
-import Navigation from '@system/Navigation';
-import Page from '@components/Page';
+import GlobalModalManager from '@runtime/modals/GlobalModalManager';
+import HamburgerMenuButton from '@patterns/chrome/HamburgerMenuButton';
+import Navigation from '@patterns/chrome/Navigation';
+import Page from '@patterns/chrome/Page';
 
 function ExampleModalsHamburgerMenu(props) {
   // (@xBalbinus): This populates the navigation in the hamburger menu.

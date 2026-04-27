@@ -3,21 +3,21 @@ import * as React from 'react';
 import * as Server from '@common/server';
 import * as Utilities from '@common/utilities';
 
-import ActionItem from '@system/documents/ActionItem';
-import Button from '@system/Button';
+import ActionItem from '@elements/marks/ActionItem';
+import Button from '@components/Button';
 import Cookies from '@modules/cookies';
-import GlobalModalManager from '@system/modals/GlobalModalManager';
-import Input from '@system/Input';
-import KeyHeader from '@system/KeyHeader';
-import ModalError from '@demos/modals/ModalError';
-import MonospacePreview from '@system/MonospacePreview';
-import Page from '@components/Page';
-import ThinAppLayout from '@system/layouts/ThinAppLayout';
-import ThinAppLayoutHeader from '@system/layouts/ThinAppLayoutHeader';
+import GlobalModalManager from '@runtime/modals/GlobalModalManager';
+import Input from '@elements/controls/Input';
+import KeyHeader from '@patterns/chrome/KeyHeader';
+import ModalError from '@patterns/modals/ModalError';
+import MonospacePreview from '@components/MonospacePreview';
+import Page from '@patterns/chrome/Page';
+import ThinAppLayout from '@elements/layouts/ThinAppLayout';
+import ThinAppLayoutHeader from '@elements/layouts/ThinAppLayoutHeader';
 
-import { P } from '@system/typography';
-import { FormHeading, FormSubHeading, FormParagraph, InputLabel } from '@system/typography/forms';
-import { useModals } from '@root/system/modals/ModalContext';
+import { P } from '@elements/type';
+import { FormHeading, FormSubHeading, FormParagraph, InputLabel } from '@elements/type/forms';
+import { useModals } from '@runtime/modals/ModalContext';
 
 function ExampleAuthentication(props) {
   const modals = useModals();

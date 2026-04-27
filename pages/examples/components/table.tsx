@@ -1,13 +1,13 @@
 import * as React from 'react';
 
-import GlobalModalManager from '@system/modals/GlobalModalManager';
-import MonospacePreview from '@system/MonospacePreview';
-import Navigation from '@system/Navigation';
-import Page from '@components/Page';
-import Table from '@system/Table';
-import WideAppLayout from '@system/layouts/WideAppLayout';
+import GlobalModalManager from '@runtime/modals/GlobalModalManager';
+import MonospacePreview from '@components/MonospacePreview';
+import Navigation from '@patterns/chrome/Navigation';
+import Page from '@patterns/chrome/Page';
+import Table from '@components/Table';
+import WideAppLayout from '@elements/layouts/WideAppLayout';
 
-import { FormHeading, FormParagraph } from '@system/typography/forms';
+import { FormHeading, FormParagraph } from '@elements/type/forms';
 
 const TABLE_HEADINGS = [`Stock`, `Price`, `Description`];
 const TABLE_DATA = [

@@ -4,16 +4,16 @@ import * as Server from '@common/server';
 import * as Utilities from '@common/utilities';
 
 import Cookies from '@modules/cookies';
-import DemoSettings from '@demos/DemoSettings';
-import DemoSettingsSidebar from '@demos/DemoSettingsSidebar';
-import GlobalModalManager from '@system/modals/GlobalModalManager';
-import KeyHeader from '@system/KeyHeader';
-import ModalError from '@demos/modals/ModalError';
-import Page from '@components/Page';
-import TwoColumnLayout from '@system/layouts/TwoColumnLayout';
+import DemoSettings from '@patterns/demos/DemoSettings';
+import DemoSettingsSidebar from '@patterns/demos/DemoSettingsSidebar';
+import GlobalModalManager from '@runtime/modals/GlobalModalManager';
+import KeyHeader from '@patterns/chrome/KeyHeader';
+import ModalError from '@patterns/modals/ModalError';
+import Page from '@patterns/chrome/Page';
+import TwoColumnLayout from '@elements/layouts/TwoColumnLayout';
 
-import { P } from '@system/typography';
-import { useModals } from '@root/system/modals/ModalContext';
+import { P } from '@elements/type';
+import { useModals } from '@runtime/modals/ModalContext';
 
 const SUB_SECTION_ROUTES = {
   'change-password': 'CHANGE_PASSWORD',

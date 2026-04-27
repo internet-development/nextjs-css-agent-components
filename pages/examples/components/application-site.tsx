@@ -1,10 +1,10 @@
 import * as React from 'react';
 
-import DemoApplicationSite from '@demos/DemoApplicationSite';
-import Footer from '@system/Footer';
-import GlobalModalManager from '@system/modals/GlobalModalManager';
-import Navigation from '@system/Navigation';
-import Page from '@components/Page';
+import DemoApplicationSite from '@patterns/demos/DemoApplicationSite';
+import Footer from '@components/Footer';
+import GlobalModalManager from '@runtime/modals/GlobalModalManager';
+import Navigation from '@patterns/chrome/Navigation';
+import Page from '@patterns/chrome/Page';
 
 function ExampleComponentsApplicationSite(props) {
   return (

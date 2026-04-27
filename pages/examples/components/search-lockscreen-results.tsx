@@ -1,10 +1,10 @@
 import * as React from 'react';
 
-import DemoSearchComponentLockScreenResults from '@demos/DemoSearchComponentLockScreenResults';
-import Footer from '@system/Footer';
-import GlobalModalManager from '@system/modals/GlobalModalManager';
-import Navigation from '@system/Navigation';
-import Page from '@components/Page';
+import DemoSearchComponentLockScreenResults from '@patterns/demos/DemoSearchComponentLockScreenResults';
+import Footer from '@components/Footer';
+import GlobalModalManager from '@runtime/modals/GlobalModalManager';
+import Navigation from '@patterns/chrome/Navigation';
+import Page from '@patterns/chrome/Page';
 
 function ExampleSearchVersionLockScreenResults(props) {
   return (

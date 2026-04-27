@@ -1,14 +1,14 @@
-import styles from '@system/documents/index.module.scss';
+import styles from '@elements/marks/index.module.css';
 
 import * as Queries from '@common/queries';
 import * as React from 'react';
 import * as Utilities from '@common/utilities';
 
-import IntDev from '@system/svg/IntDev';
-import InvoiceLayout from '@system/layouts/InvoiceLayout';
-import Page from '@components/Page';
+import IntDev from '@elements/icons/IntDev';
+import InvoiceLayout from '@elements/layouts/InvoiceLayout';
+import Page from '@patterns/chrome/Page';
 
-import { H4, Title, Text } from '@system/typography';
+import { H4, Title, Text } from '@elements/type';
 
 function ExampleEventProposal(props) {
   const allAcknowledged =

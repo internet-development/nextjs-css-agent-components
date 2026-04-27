@@ -1,15 +1,15 @@
 import * as React from 'react';
 import * as Utilities from '@common/utilities';
 
-import ChartLegend from '@system/graphs/ChartLegend';
-import DemoSystemDataVisualizationSidebar, { VISUALIZATION_OPTIONS } from '@demos/DemoSystemDataVisualizationSidebar';
-import GlobalModalManager from '@system/modals/GlobalModalManager';
-import LineChart from '@root/system/graphs/LineChart';
-import Navigation from '@system/Navigation';
-import Page from '@components/Page';
-import TwoColumnLayoutFull from '@system/layouts/TwoColumnLayoutFull';
+import ChartLegend from '@elements/charts/ChartLegend';
+import DemoSystemDataVisualizationSidebar, { VISUALIZATION_OPTIONS } from '@patterns/demos/DemoSystemDataVisualizationSidebar';
+import GlobalModalManager from '@runtime/modals/GlobalModalManager';
+import LineChart from '@elements/charts/LineChart';
+import Navigation from '@patterns/chrome/Navigation';
+import Page from '@patterns/chrome/Page';
+import TwoColumnLayoutFull from '@elements/layouts/TwoColumnLayoutFull';
 
-import { H2, P, Title, Text, SubText } from '@system/typography';
+import { H2, P, Title, Text, SubText } from '@elements/type';
 
 const EXAMPLE_LEGEND_DATA = [`var(--theme-graph-positive)`];
 const EXAMPLE_LEGEND_DATA_WITH_AREA = [`var(--theme-graph-positive)`, `var(--theme-border)`];

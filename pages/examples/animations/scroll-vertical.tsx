@@ -2,11 +2,11 @@ import * as React from 'react';
 import * as Server from '@common/server';
 import * as Utilities from '@common/utilities';
 
-import GlobalModalManager from '@system/modals/GlobalModalManager';
-import GridLayout from '@system/layouts/GridLayout';
-import Navigation from '@system/Navigation';
-import ScrollVertical from '@system/scroll/ScrollVertical';
-import Page from '@components/Page';
+import GlobalModalManager from '@runtime/modals/GlobalModalManager';
+import GridLayout from '@elements/layouts/GridLayout';
+import Navigation from '@patterns/chrome/Navigation';
+import ScrollVertical from '@elements/scroll/ScrollVertical';
+import Page from '@patterns/chrome/Page';
 
 function ExampleScrollCarouselHorizontal(props) {
   const [key, setKey] = React.useState<string>(props.sessionKey);

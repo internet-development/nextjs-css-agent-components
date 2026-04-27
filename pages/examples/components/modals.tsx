@@ -1,16 +1,16 @@
 import * as React from 'react';
 
-import Button from '@system/Button';
-import Content from '@system/layouts/Content';
-import Footer from '@system/Footer';
-import GlobalModalManager from '@system/modals/GlobalModalManager';
-import ModalIndex from '@demos/modals/ModalIndex';
-import Navigation from '@system/Navigation';
-import Page from '@components/Page';
-import SectionFullHeight from '@system/sections/SectionFullHeight';
+import Button from '@components/Button';
+import Content from '@elements/layouts/Content';
+import Footer from '@components/Footer';
+import GlobalModalManager from '@runtime/modals/GlobalModalManager';
+import ModalIndex from '@patterns/modals/ModalIndex';
+import Navigation from '@patterns/chrome/Navigation';
+import Page from '@patterns/chrome/Page';
+import SectionFullHeight from '@elements/sections/SectionFullHeight';
 
-import { H1, Lead } from '@system/typography';
-import { useModals } from '@root/system/modals/ModalContext';
+import { H1, Lead } from '@elements/type';
+import { useModals } from '@runtime/modals/ModalContext';
 
 function ExampleModals(props) {
   const modals = useModals();

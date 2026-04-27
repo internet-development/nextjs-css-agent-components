@@ -2,16 +2,16 @@ import * as React from 'react';
 import * as Server from '@common/server';
 import * as Utilities from '@common/utilities';
 
-import CheckmarkItem from '@system/documents/CheckmarkItem';
+import CheckmarkItem from '@components/CheckmarkItem';
 import Cookies from '@modules/cookies';
-import GlobalModalManager from '@system/modals/GlobalModalManager';
-import Navigation from '@system/Navigation';
-import Page from '@components/Page';
-import ThinAppLayout from '@system/layouts/ThinAppLayout';
-import ThinAppLayoutHeader from '@system/layouts/ThinAppLayoutHeader';
+import GlobalModalManager from '@runtime/modals/GlobalModalManager';
+import Navigation from '@patterns/chrome/Navigation';
+import Page from '@patterns/chrome/Page';
+import ThinAppLayout from '@elements/layouts/ThinAppLayout';
+import ThinAppLayoutHeader from '@elements/layouts/ThinAppLayoutHeader';
 
-import { H1, H2, H3, H4, Lead, SubLead, P, Title, Text, SubTitle, SubText, UnitLabel } from '@system/typography';
-import { FormHeading, FormSubHeading, FormParagraph, InputLabel } from '@system/typography/forms';
+import { H1, H2, H3, H4, Lead, SubLead, P, Title, Text, SubTitle, SubText, UnitLabel } from '@elements/type';
+import { FormHeading, FormSubHeading, FormParagraph, InputLabel } from '@elements/type/forms';
 
 function ExampleJobPosting(props) {
   return (

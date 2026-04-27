@@ -1,10 +1,10 @@
 import * as React from 'react';
 
-import DemoPost from '@demos/DemoPost';
-import Footer from '@system/Footer';
-import GlobalModalManager from '@system/modals/GlobalModalManager';
-import Navigation from '@system/Navigation';
-import Page from '@components/Page';
+import DemoPost from '@patterns/demos/DemoPost';
+import Footer from '@components/Footer';
+import GlobalModalManager from '@runtime/modals/GlobalModalManager';
+import Navigation from '@patterns/chrome/Navigation';
+import Page from '@patterns/chrome/Page';
 
 function ExamplePost(props) {
   return (

@@ -7,6 +7,7 @@
 .env-textile
 .env-production
 .DS_STORE
+NEXT.md
 DS_STORE
 yarn.lock
 node_modules

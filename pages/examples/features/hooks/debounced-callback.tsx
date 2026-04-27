@@ -1,9 +1,9 @@
 import * as Hooks from '@common/hooks';
 import * as React from 'react';
 
-import Input from '@root/system/Input';
-import Page from '@components/Page';
-import SectionFullHeight from '@root/system/sections/SectionFullHeight';
+import Input from '@elements/controls/Input';
+import Page from '@patterns/chrome/Page';
+import SectionFullHeight from '@elements/sections/SectionFullHeight';
 
 function ExampleDebouncedCallback(props) {
   const [debounceMS, setDebounceMS] = React.useState(100);

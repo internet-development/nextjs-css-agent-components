@@ -5,26 +5,26 @@
       "@root/*": [
         "./*"
       ],
-      "@system/*": [
-        "./system/*"
-      ],
-      "@demos/*": [
-        "./demos/*"
-      ],
-      "@common/*": [
-        "./common/*"
-      ],
-      "@data/*": [
-        "./data/*"
+      "@elements/*": [
+        "./elements/*"
       ],
       "@components/*": [
         "./components/*"
       ],
-      "@pages/*": [
-        "./pages/*"
+      "@patterns/*": [
+        "./patterns/*"
+      ],
+      "@runtime/*": [
+        "./runtime/*"
+      ],
+      "@common/*": [
+        "./common/*"
       ],
       "@modules/*": [
         "./modules/*"
+      ],
+      "@pages/*": [
+        "./pages/*"
       ]
     },
     "target": "es6",
@@ -40,7 +40,7 @@
     "noEmit": true,
     "esModuleInterop": true,
     "module": "esnext",
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "react-jsx",

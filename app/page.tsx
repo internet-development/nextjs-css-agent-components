@@ -1,12 +1,12 @@
-import '@root/global.scss';
-import '@root/animations.scss';
+import '@root/global.css';
+import '@root/animations.css';
 
 import * as Constants from '@common/constants';
 import * as Utilities from '@common/utilities';
 
-import Bluesky from '@system/svg/social/Bluesky';
-import DefaultLayout from '@components/DefaultLayout';
-import ListItem from '@components/ListItem';
+import Bluesky from '@elements/icons/social/Bluesky';
+import DefaultLayout from '@elements/shells/DefaultLayout';
+import ListItem from '@elements/shells/ListItem';
 import Package from '@root/package.json';
 import Script from 'next/script';
 

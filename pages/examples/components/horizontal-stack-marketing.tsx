@@ -1,16 +1,16 @@
 import * as React from 'react';
 
-import Content from '@system/layouts/Content';
-import Cross from '@system/svg/Cross';
-import DemoElementSpacer from '@demos/DemoElementSpacer';
-import Footer from '@system/Footer';
-import GlobalModalManager from '@system/modals/GlobalModalManager';
-import IntDev from '@system/svg/IntDev';
-import Navigation from '@system/Navigation';
-import Page from '@components/Page';
-import SectionHorizontalStack from '@system/sections/SectionHorizontalStack';
+import Content from '@elements/layouts/Content';
+import Cross from '@elements/icons/Cross';
+import DemoElementSpacer from '@patterns/demos/DemoElementSpacer';
+import Footer from '@components/Footer';
+import GlobalModalManager from '@runtime/modals/GlobalModalManager';
+import IntDev from '@elements/icons/IntDev';
+import Navigation from '@patterns/chrome/Navigation';
+import Page from '@patterns/chrome/Page';
+import SectionHorizontalStack from '@elements/sections/SectionHorizontalStack';
 
-import { H1, Lead } from '@system/typography';
+import { H1, Lead } from '@elements/type';
 
 function ExampleHorizontalStackMarketing(props) {
   return (

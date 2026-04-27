@@ -1,19 +1,19 @@
 import * as React from 'react';
 import * as Utilities from '@common/utilities';
 
-import ActionItem from '@system/documents/ActionItem';
-import Button from '@system/Button';
-import Checkbox from '@system/Checkbox';
-import GlobalModalManager from '@system/modals/GlobalModalManager';
-import GridLayout from '@system/layouts/GridLayout';
-import Input from '@system/Input';
-import Navigation from '@system/Navigation';
-import Page from '@components/Page';
-import Select from '@system/Select';
-import TextArea from '@system/TextArea';
-import ThinAppLayout from '@system/layouts/ThinAppLayout';
+import ActionItem from '@elements/marks/ActionItem';
+import Button from '@components/Button';
+import Checkbox from '@components/Checkbox';
+import GlobalModalManager from '@runtime/modals/GlobalModalManager';
+import GridLayout from '@elements/layouts/GridLayout';
+import Input from '@elements/controls/Input';
+import Navigation from '@patterns/chrome/Navigation';
+import Page from '@patterns/chrome/Page';
+import Select from '@components/Select';
+import TextArea from '@elements/controls/TextArea';
+import ThinAppLayout from '@elements/layouts/ThinAppLayout';
 
-import { FormHeading, FormParagraph, InputLabel } from '@system/typography/forms';
+import { FormHeading, FormParagraph, InputLabel } from '@elements/type/forms';
 
 const PLACEHOLDER = `First line of placeholder
 Second line of placeholder

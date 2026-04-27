@@ -3,11 +3,11 @@ import * as Server from '@common/server';
 import * as Utilities from '@common/utilities';
 
 import Cookies from '@modules/cookies';
-import GlobalModalManager from '@system/modals/GlobalModalManager';
-import IsometricGridLayout from '@system/layouts/IsometricGridLayout';
-import IsometricProductBox from '@system/IsometricProductBox';
-import Navigation from '@system/Navigation';
-import Page from '@components/Page';
+import GlobalModalManager from '@runtime/modals/GlobalModalManager';
+import IsometricGridLayout from '@elements/layouts/IsometricGridLayout';
+import IsometricProductBox from '@elements/visuals/IsometricProductBox';
+import Navigation from '@patterns/chrome/Navigation';
+import Page from '@patterns/chrome/Page';
 
 function ExampleComponentsProductMarketing(props) {
   return (

@@ -1,16 +1,16 @@
 import * as React from 'react';
 import * as Utilities from '@common/utilities';
 
-import GlobalModalManager from '@system/modals/GlobalModalManager';
-import GridLayout from '@system/layouts/GridLayout';
-import Navigation from '@system/Navigation';
-import Page from '@components/Page';
-import Table from '@system/Table';
-import Tag from '@system/documents/Tag';
-import TextSwapper from '@system/animations/TextSwapper';
-import TwoColumnLayoutFull from '@system/layouts/TwoColumnLayoutFull';
+import GlobalModalManager from '@runtime/modals/GlobalModalManager';
+import GridLayout from '@elements/layouts/GridLayout';
+import Navigation from '@patterns/chrome/Navigation';
+import Page from '@patterns/chrome/Page';
+import Table from '@components/Table';
+import Tag from '@elements/marks/Tag';
+import TextSwapper from '@elements/motion/TextSwapper';
+import TwoColumnLayoutFull from '@elements/layouts/TwoColumnLayoutFull';
 
-import { H3 } from '@system/typography';
+import { H3 } from '@elements/type';
 
 const TABLE_HEADINGS = [``, `Component`, `Animation`, `Preview`];
 

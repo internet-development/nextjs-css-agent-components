@@ -1,16 +1,16 @@
 import * as React from 'react';
 
-import Content from '@system/layouts/Content';
-import DemoBentoLayout from '@demos/DemoBentoLayout';
-import DemoPricing from '@demos/DemoPricing';
-import DemoSimpleGrid from '@demos/DemoSimpleGrid';
-import Footer from '@system/Footer';
-import GlobalModalManager from '@system/modals/GlobalModalManager';
-import Navigation from '@system/Navigation';
-import Page from '@components/Page';
-import SectionHalfHeight from '@system/sections/SectionHalfHeight';
+import Content from '@elements/layouts/Content';
+import DemoBentoLayout from '@patterns/demos/DemoBentoLayout';
+import DemoPricing from '@patterns/demos/DemoPricing';
+import DemoSimpleGrid from '@patterns/demos/DemoSimpleGrid';
+import Footer from '@components/Footer';
+import GlobalModalManager from '@runtime/modals/GlobalModalManager';
+import Navigation from '@patterns/chrome/Navigation';
+import Page from '@patterns/chrome/Page';
+import SectionHalfHeight from '@elements/sections/SectionHalfHeight';
 
-import { H1, Lead } from '@system/typography';
+import { H1, Lead } from '@elements/type';
 
 function ExampleHalfLanding(props) {
   return (

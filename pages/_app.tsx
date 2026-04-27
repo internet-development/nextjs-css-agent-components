@@ -1,9 +1,9 @@
-import '@root/global.scss';
-import '@root/animations.scss';
+import '@root/global.css';
+import '@root/animations.css';
 
 import * as React from 'react';
 
-import Providers from '@components/Providers';
+import Providers from '@patterns/chrome/Providers';
 
 function MyApp({ Component, pageProps }) {
   return (

@@ -1,14 +1,14 @@
 import * as React from 'react';
 
-import DashboardWithSidebarLayout from '@system/layouts/DashboardWithSidebarLayout';
-import DemoBentoLayout from '@demos/DemoBentoLayout';
-import DemoSidebarLayoutSettings from '@demos/DemoSidebarLayoutSettings';
-import FormSettingsPrivacy from '@system/forms/FormSettingsPrivacy';
-import GlobalModalManager from '@system/modals/GlobalModalManager';
-import Navigation from '@system/Navigation';
-import Page from '@components/Page';
+import DashboardWithSidebarLayout from '@elements/layouts/DashboardWithSidebarLayout';
+import DemoBentoLayout from '@patterns/demos/DemoBentoLayout';
+import DemoSidebarLayoutSettings from '@patterns/demos/DemoSidebarLayoutSettings';
+import FormSettingsPrivacy from '@components/FormSettingsPrivacy';
+import GlobalModalManager from '@runtime/modals/GlobalModalManager';
+import Navigation from '@patterns/chrome/Navigation';
+import Page from '@patterns/chrome/Page';
 
-import { H1, Lead } from '@system/typography';
+import { H1, Lead } from '@elements/type';
 
 function ExampleDashboardSettingsPrivacy(props) {
   const sidebarElement = <DemoSidebarLayoutSettings />;

@@ -3,17 +3,17 @@ import * as React from 'react';
 import * as Server from '@common/server';
 import * as Utilities from '@common/utilities';
 
-import ActionItem from '@system/documents/ActionItem';
+import ActionItem from '@elements/marks/ActionItem';
 import Cookies from '@modules/cookies';
-import DemoThreads from '@demos/DemoThreads';
-import GlobalModalManager from '@system/modals/GlobalModalManager';
-import KeyHeader from '@system/KeyHeader';
-import ModalError from '@demos/modals/ModalError';
-import Page from '@components/Page';
-import WideAppLayout from '@system/layouts/WideAppLayout';
+import DemoThreads from '@patterns/demos/DemoThreads';
+import GlobalModalManager from '@runtime/modals/GlobalModalManager';
+import KeyHeader from '@patterns/chrome/KeyHeader';
+import ModalError from '@patterns/modals/ModalError';
+import Page from '@patterns/chrome/Page';
+import WideAppLayout from '@elements/layouts/WideAppLayout';
 
-import { FormHeading, FormParagraph } from '@system/typography/forms';
-import { useModals } from '@root/system/modals/ModalContext';
+import { FormHeading, FormParagraph } from '@elements/type/forms';
+import { useModals } from '@runtime/modals/ModalContext';
 
 function ExampleEmptyApplicationTemplate(props) {
   const modals = useModals();

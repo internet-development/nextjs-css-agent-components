@@ -3,13 +3,13 @@ import * as React from 'react';
 import * as Server from '@common/server';
 import * as Utilities from '@common/utilities';
 
-import InternetDevelopmentLogoMark from '@components/InternetDevelopmentLogoMark';
-import InvoiceLayout from '@system/layouts/InvoiceLayout';
-import KeyHeader from '@system/KeyHeader';
-import Page from '@components/Page';
-import SignatureBox from '@system/documents/SignatureBox';
+import InternetDevelopmentLogoMark from '@elements/shells/InternetDevelopmentLogoMark';
+import InvoiceLayout from '@elements/layouts/InvoiceLayout';
+import KeyHeader from '@patterns/chrome/KeyHeader';
+import Page from '@patterns/chrome/Page';
+import SignatureBox from '@elements/marks/SignatureBox';
 
-import { Title, Text } from '@system/typography';
+import { Title, Text } from '@elements/type';
 
 function ExampleEmploymentDocument(props) {
   const employee = {

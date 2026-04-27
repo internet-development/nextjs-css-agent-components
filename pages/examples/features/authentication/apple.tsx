@@ -1,14 +1,14 @@
 import * as React from 'react';
 import * as Server from '@common/server';
 
-import ActionItem from '@system/documents/ActionItem';
-import Button from '@system/Button';
+import ActionItem from '@elements/marks/ActionItem';
+import Button from '@components/Button';
 import Cookies from '@modules/cookies';
-import GlobalModalManager from '@system/modals/GlobalModalManager';
-import KeyHeader from '@system/KeyHeader';
-import Page from '@components/Page';
-import ThinAppLayout from '@system/layouts/ThinAppLayout';
-import { FormHeading, FormParagraph, InputLabel } from '@system/typography/forms';
+import GlobalModalManager from '@runtime/modals/GlobalModalManager';
+import KeyHeader from '@patterns/chrome/KeyHeader';
+import Page from '@patterns/chrome/Page';
+import ThinAppLayout from '@elements/layouts/ThinAppLayout';
+import { FormHeading, FormParagraph, InputLabel } from '@elements/type/forms';
 
 function ExampleAuthentication(props) {
   const [currentUser, setUser] = React.useState<Record<string, any> | null>(props.viewer);

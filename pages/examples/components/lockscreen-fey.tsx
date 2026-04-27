@@ -1,10 +1,10 @@
 import * as React from 'react';
 
-import DemoLockScreenFeyAgent from '@demos/DemoLockScreenFeyAgent';
-import Footer from '@system/Footer';
-import GlobalModalManager from '@system/modals/GlobalModalManager';
-import Navigation from '@system/Navigation';
-import Page from '@components/Page';
+import DemoLockScreenFeyAgent from '@patterns/demos/DemoLockScreenFeyAgent';
+import Footer from '@components/Footer';
+import GlobalModalManager from '@runtime/modals/GlobalModalManager';
+import Navigation from '@patterns/chrome/Navigation';
+import Page from '@patterns/chrome/Page';
 
 function ExampleLockScreenFeyAgent(props) {
   return (

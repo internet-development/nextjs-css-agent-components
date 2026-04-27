@@ -1,41 +1,53 @@
-# NEXTJS-SASS-STARTER
+# NEXTJS-CSS-AGENT-COMPONENTS
 
 **[Live Demo](https://wireframes.internet.dev)**
 
-Our extensive experience in building numerous websites has led us to create this template repository as an efficient starting point. If you're keen on developing websites alongside the [Internet Development Studio Company](https://internet.dev), we highly recommend utilizing this template as your foundation.
+A Next.js + TypeScript + vanilla-CSS component library from the [Internet Development Studio Company](https://internet.dev). It's a precise wireframe system — every pixel, token, and transition is deliberate — and it's built to be a comfortable place for AI coding agents to work alongside you. See [`AGENTS.md`](./AGENTS.md) for the operating manual.
 
-Why would I use this?
+Why use this?
 
-- **Jumpstart Your Project** → Leverage the power of TypeScript, SASS, and NextJS to quickly get your project off the ground.
-- **Template Efficiency** → Streamline your development process by using a pre-configured template.
-- **Speed and Simplicity** → Ideal for rapid website creation without compromising on quality.
-- **Learning Opportunity** → If you're delving into web development, perhaps under the guidance of [@wwwjim](https://x.com/wwwjim), this template is a perfect starting point. Enhance your learning experience by exploring the [issues section](https://github.com/internet-development/nextjs-sass-starter/issues?q=is%3Aissue+is%3Aopen+label%3ADocumentation), which includes helpful documentation.
+- **Readable everything** → No SASS, no Tailwind, no CSS-in-JS. Just CSS Modules with native nesting and a small set of theme tokens.
+- **Three-tier architecture** → `elements/` (atoms) → `components/` (molecules) → `patterns/` (organisms), with `runtime/` for non-visual infrastructure. Path aliases declare the tier on every import.
+- **Five themes out of the box** → `light`, `dark`, `daybreak`, `blue`, `neon-green`, all driven by CSS custom properties on `body`.
+- **Agent-friendly** → [`AGENTS.md`](./AGENTS.md) documents the conventions; [`public/skills/`](./public/skills/) holds reusable how-tos (porting components to other repos, building new app pages from scratch).
+- **Learning friendly** → A great starting point for web dev, especially alongside [@wwwjim](https://x.com/wwwjim).
 
-### Setup (MacOS)
+### Working with an AI agent
 
-Start by cloning the repository, or by clicking on **Use this template** above.
+The repo is structured so an agent can take a one-line prompt and land a working page on the first pass. Two skills live under [`public/skills/`](./public/skills/):
 
-You will have wanted to setup your development environment by following steps [here](https://github.com/internet-development/nextjs-sass-starter/issues/3).
+- [`build-app-page`](./public/skills/build-app-page/SKILL.md) — scaffold a new route under `pages/` using the right `Page` shell, layout, chrome, and modal wiring.
+- [`export-component-to-other-repo`](./public/skills/export-component-to-other-repo/SKILL.md) — lift a component into a different codebase without losing the design-system precision (theme tokens, type scale, transitions, breakpoints).
 
-Then run the server
+For example, the prompt _"Take a few of these components and make a stock trading application example for me"_ runs through `build-app-page` like this:
+
+1. **Pre-flight** — the skill asks four questions: purpose (authenticated app screen), session (yes, `KeyHeader` + `Server.setup`), modals (yes, confirm-trade), gallery (yes, register in `common/constants.ts`).
+2. **Pick a shape** — Shape E (`ThreeColumnAppLayout`: watchlist sidebar | ticker detail | chart canvas), modeled on the existing `pages/examples/features/statement-of-work/index.tsx`.
+3. **Pull components by tier** — atoms (`LineChart` / `CandlestickChart` from `@elements/charts/`, `Input` from `@elements/controls/`, `Tag` from `@elements/marks/`), molecules (`Button`, `Table`, `Select` from `@components/`), patterns (`KeyHeader`, `Page`, `Navigation` from `@patterns/chrome/`, `ModalError` from `@patterns/modals/`).
+4. **Wire it up** — `<Page>` for chrome and metadata, `<GlobalModalManager />` for modals, `getServerSideProps` for the session, typography from `@elements/type` and `@elements/type/forms`, spacing on the multiples-of-4 grid.
+5. **Register** — add an entry to `TEMPLATE_EXAMPLES_FEATURES` in `common/constants.ts` so it shows up in the gallery.
+6. **Verify** — `npm run dev` on port 10000, then `npm run build` to typecheck.
+
+That's the full loop. Both skills are plain markdown — read them top-to-bottom to see exactly what an agent will do before it writes any code.
+
+### Setup
 
 ```sh
 npm install
 npm run dev
 ```
 
-Go to `http://localhost:10000` in your browser of choice.
+Open `http://localhost:10000`. We use port `10000` for compatibility with [Render.com](https://render.com).
 
-Enjoy! The template uses `10000` as our `port` for more compatibility with [Render.com](https://render.com)
+### Formatting
 
-### Scripts (Optional)
-
-If you need to run node script without running the server, use this example to get started
+We use [Prettier](https://prettier.io) with the config in [`.prettierrc`](./.prettierrc) (single quotes, 2-space, trailing commas, `printWidth: 9999` — long lines are intentional).
 
 ```sh
-npm run script example
+npm run format         # format all files in place
+npm run format:check   # report unformatted files without writing
 ```
 
 ### Contact
 
-If you have questions ping me on Twitter, [@wwwjim](https://www.twitter.com/wwwjim). Or you can ping [@internetxstudio](https://x.com/internetxstudio).
+Ping [@wwwjim](https://www.twitter.com/wwwjim) or [@internetxstudio](https://x.com/internetxstudio).
