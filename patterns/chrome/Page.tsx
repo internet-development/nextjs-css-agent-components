@@ -14,7 +14,7 @@ export interface PageProps {
 }
 
 export default function Page(props: PageProps) {
-  const source = `https://github.com/internet-development/nextjs-sass-starter/blob/main/pages${props.url.replace('https://wireframes.internet.dev', '')}.tsx`;
+  const source = `https://github.com/internet-development/nextjs-css-agent-components/blob/main/pages${props.url.replace('https://wireframes.internet.dev', '')}.tsx`;
 
   return (
     <>

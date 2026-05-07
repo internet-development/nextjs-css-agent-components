@@ -83,8 +83,8 @@ export default async function Page(props) {
         <ListItem href="https://internet.dev" index={Utilities.leftPad(`4`, 4)}>
           internet.dev
         </ListItem>
-        <ListItem href="https://github.com/internet-development/nextjs-sass-starter" index={Utilities.leftPad(`5`, 4)} isWIP>
-          nextjs-sass-starter source code
+        <ListItem href="https://github.com/internet-development/nextjs-css-agent-components" index={Utilities.leftPad(`5`, 4)} isWIP>
+          nextjs-css-agent-components source code
         </ListItem>
         <ListItem href="https://servermono.com" index={Utilities.leftPad(`6`, 4)}>
           servermono.com
@@ -114,7 +114,7 @@ export default async function Page(props) {
 
       <div style={{ marginTop: 88, lineHeight: '1.6', maxWidth: 768 }}>
         Explore — We have many many examples, components, and{' '}
-        <a href="https://github.com/internet-development/nextjs-sass-starter" target="_blank">
+        <a href="https://github.com/internet-development/nextjs-css-agent-components" target="_blank">
           source code
         </a>{' '}
         for everything listed.
@@ -133,16 +133,16 @@ export default async function Page(props) {
         Learn — Are you new and want to work alongside the <a href="https://internet.dev">Internet Development Studio</a> team?
       </div>
       <div style={{ paddingBottom: 128 }}>
-        <ListItem index={Utilities.leftPad(`1`, 4)} href="https://github.com/internet-development/nextjs-sass-starter/issues/2">
+        <ListItem index={Utilities.leftPad(`1`, 4)} href="https://github.com/internet-development/nextjs-css-agent-components/issues/2">
           Setting up SSH keys locally (MacOS)
         </ListItem>
-        <ListItem index={Utilities.leftPad(`2`, 4)} href="https://github.com/internet-development/nextjs-sass-starter/issues/3">
+        <ListItem index={Utilities.leftPad(`2`, 4)} href="https://github.com/internet-development/nextjs-css-agent-components/issues/3">
           The software we recommend for web development (MacOS)
         </ListItem>
-        <ListItem index={Utilities.leftPad(`3`, 4)} href="https://github.com/internet-development/nextjs-sass-starter/issues/4">
-          The anatomy of nextjs-sass-starter
+        <ListItem index={Utilities.leftPad(`3`, 4)} href="https://github.com/internet-development/nextjs-css-agent-components/issues/4">
+          The anatomy of nextjs-css-agent-components
         </ListItem>
-        <ListItem index={Utilities.leftPad(`4`, 4)} href="https://github.com/internet-development/nextjs-sass-starter/issues/5">
+        <ListItem index={Utilities.leftPad(`4`, 4)} href="https://github.com/internet-development/nextjs-css-agent-components/issues/5">
           Accounts, organizations, and data upload
         </ListItem>
       </div>

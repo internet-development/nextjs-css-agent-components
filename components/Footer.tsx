@@ -87,7 +87,7 @@ export default function Footer(props) {
           <a href="https://bsky.app/profile/internetstudio.bsky.social" className={styles.subItem} target="_blank">
             Bluesky
           </a>
-          <a href="https://github.com/internet-development/nextjs-sass-starter" className={styles.subItem} target="_blank">
+          <a href="https://github.com/internet-development/nextjs-css-agent-components" className={styles.subItem} target="_blank">
             GitHub
           </a>
           <a href="https://read.cv/teams/intdev" className={styles.subItem} target="_blank">

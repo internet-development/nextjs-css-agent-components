@@ -1,13 +1,13 @@
 ---
 name: export-component-to-other-repo
-description: Port a component from nextjs-sass-starter into a different repo without losing the design-system precision. Use when the user says "copy this component to <repo>", "lift Button into <repo>", "bring the Thin layout over", or otherwise wants a faithful transplant of one or more components from this codebase. Carries over the CSS Module, the theme tokens it depends on, the typography scale, the spacing/transition conventions, and the path-alias plumbing required for it to compile.
+description: Port a component from nextjs-css-agent-components into a different repo without losing the design-system precision. Use when the user says "copy this component to <repo>", "lift Button into <repo>", "bring the Thin layout over", or otherwise wants a faithful transplant of one or more components from this codebase. Carries over the CSS Module, the theme tokens it depends on, the typography scale, the spacing/transition conventions, and the path-alias plumbing required for it to compile.
 ---
 
 # Export a component to another repo
 
-This skill exports a component (or a set of components) from `nextjs-sass-starter` into a target repo while preserving every value that makes it look right: pixel measurements, type tokens, theme variables, transition timing, breakpoint, and z-index. The starter is a precision wireframe system — paraphrasing values is the failure mode this skill exists to prevent.
+This skill exports a component (or a set of components) from `nextjs-css-agent-components` into a target repo while preserving every value that makes it look right: pixel measurements, type tokens, theme variables, transition timing, breakpoint, and z-index. The starter is a precision wireframe system — paraphrasing values is the failure mode this skill exists to prevent.
 
-**Heads-up on the name:** despite the repo being called `nextjs-sass-starter`, SASS is **not** a dependency. All styling is vanilla CSS Modules (`.module.css`) using **native CSS nesting** (the `&` selector). Next.js compiles this via Lightning CSS with no preprocessor or PostCSS plugins. Don't introduce a SASS dependency in the target.
+**Heads-up on styling:** SASS is **not** a dependency. All styling is vanilla CSS Modules (`.module.css`) using **native CSS nesting** (the `&` selector). Next.js compiles this via Lightning CSS with no preprocessor or PostCSS plugins. Don't introduce a SASS dependency in the target. (The package was previously named `nextjs-sass-starter`; ignore that name if you encounter it in old links or forks.)
 
 ## When to use
 
@@ -207,7 +207,7 @@ If anything looks "almost right but off by a few pixels," the cause is almost al
 ### Step 8 — leave breadcrumbs
 
 In the target repo, drop a short note in the component's directory (only if the user is okay with new files) explaining:
-- Which commit/path it came from in `nextjs-sass-starter`.
+- Which commit/path it came from in `nextjs-css-agent-components`.
 - Which globals (tokens, fonts, keyframes) it depends on.
 - That values are intentional and should not be tweaked without coordinating with the source.
 
@@ -215,7 +215,7 @@ Do this as a comment block at the top of the component if the user doesn't want 
 
 ## Anti-patterns
 
-- **Adding SASS to the target "because the source repo is called `nextjs-sass-starter`."** It isn't using SASS. Every file is vanilla `.module.css`. Don't introduce a preprocessor the source doesn't have.
+- **Adding SASS to the target.** The source repo doesn't use SASS. Every file is vanilla `.module.css`. Don't introduce a preprocessor the source doesn't have, even if you found this codebase under its old `nextjs-sass-starter` name.
 - **Pasting only the TSX and re-styling with Tailwind/inline styles.** This loses the precision payload and defeats the point of the export. If that's what the user wants, do it explicitly and call it out.
 - **"Inlining" CSS variables to literal values.** (`var(--theme-text)` → `#000`.) The whole theme system breaks. Keep the variables; copy the tokens that resolve them.
 - **Renaming tokens** to fit the target's naming convention on the way in. Do that as a follow-up refactor, not during the transplant — otherwise you can't diff against the source if something looks off.

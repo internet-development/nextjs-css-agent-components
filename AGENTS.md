@@ -1,12 +1,12 @@
 # AGENTS.md
 
-Operating manual for AI agents working in `nextjs-sass-starter`. Read this end-to-end before editing.
+Operating manual for AI agents working in `nextjs-css-agent-components`. Read this end-to-end before editing.
 
 ## What this repo is
 
 A Next.js 16 + React 19 + vanilla-CSS starter from Internet Development Studio. It powers `wireframes.internet.dev` and acts as the studio's design-system reference. Everything is intentionally vanilla — no Tailwind, no SASS, no PostCSS plugins, no CSS-in-JS, no UI library, no test runner, no state manager. Styles are CSS Modules using **native CSS nesting** (the `&` selector is plain CSS, compiled by Next.js's built-in Lightning CSS — no preprocessor required). The look is a precise, monospace-leaning, low-chrome wireframe aesthetic, and the precision is the product. Pixel values, type tokens, and theme variables are deliberate and should not be paraphrased away.
 
-> The repo is still named `nextjs-sass-starter` for historical reasons. SASS itself is no longer a dependency — all styling is vanilla CSS.
+> The package was previously named `nextjs-sass-starter`. SASS has never been a dependency in the current codebase — all styling is vanilla CSS. The package is now `nextjs-css-agent-components`.
 
 ## Run / build
 

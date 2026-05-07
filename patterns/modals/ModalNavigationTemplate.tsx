@@ -70,7 +70,7 @@ const ModalNavigationTemplate: ModalComponent<ModalNavigationTemplateProps> = (p
       <a href="https://x.com/internetxstudio" className={styles.item} target="_blank">
         X
       </a>
-      <a href="https://github.com/internet-development/nextjs-sass-starter" className={styles.item} target="_blank">
+      <a href="https://github.com/internet-development/nextjs-css-agent-components" className={styles.item} target="_blank">
         GitHub
       </a>
       <a href="https://read.cv/teams/intdev" className={styles.item} target="_blank">

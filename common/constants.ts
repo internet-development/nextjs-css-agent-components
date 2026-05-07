@@ -373,7 +373,7 @@ export const TEMPLATE_POSTS = [
 
 export const TEMPLATE_LINKS = [
   { href: 'https://bsky.app/profile/internetstudio.bsky.social', label: 'Bluesky' },
-  { href: 'https://github.com/internet-development/nextjs-sass-starter', label: 'Github' },
+  { href: 'https://github.com/internet-development/nextjs-css-agent-components', label: 'Github' },
   { href: 'https://internet.dev', label: 'internet.dev' },
   { href: 'https://read.cv/teams/intdev', label: 'ReadCV' },
   { href: 'https://x.com/internetxstudio', label: 'X (formerly Twitter)' },

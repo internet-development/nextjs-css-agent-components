@@ -22,11 +22,11 @@ function ExampleHalfLanding(props) {
       <Navigation />
       <SectionHalfHeight>
         <Content>
-          <H1>nextjs-sass-starter</H1>
+          <H1>nextjs-css-agent-components</H1>
           <Lead style={{ marginTop: `var(--type-scale-5)` }}>
             A lightweight website template to test our design system. You can view this template on GitHub and see how we write websites. <br />
             <br />
-            This example tests a navigation, theming, mobile responsiveness, a SEO pixel, and half browser height sections so more content is above the fold.
+            This example tests a navigation, theming, mobile responsiveness, an SEO pixel, and half browser height sections so more content is above the fold.
           </Lead>
         </Content>
       </SectionHalfHeight>
