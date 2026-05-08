@@ -5,7 +5,7 @@
     "node": ">=18"
   },
   "license": "MIT",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "scripts": {
     "dev": "next -p 10000",
     "build": "next build",
@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "d3": "^7.9.0",
-    "next": "^16.2.4",
+    "next": "^16.2.6",
     "react": "^19.2.4",
     "react-dom": "^19.2.4"
   },
