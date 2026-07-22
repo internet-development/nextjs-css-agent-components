@@ -20,7 +20,11 @@ export default function DemoBentoLayout(props) {
               Internet Development Studio Company
             </a>{' '}
             invites you to use all of our services. Those services include API endpoints, developer tooling, reliable file storage, document generation tools, and even physical
-            collaboration space.
+            collaboration space. You will also get the most out of{' '}
+            <a className={styles.link} href="https://terminalgraph.com" target="_blank">
+              Terminal Graph
+            </a>
+            , our flagship product.
           </SubLead>
         </section>
       </header>
@@ -85,6 +89,13 @@ export default function DemoBentoLayout(props) {
               </Text>
               <div>
                 <CheckmarkItem>1,500 credits deposited every month.</CheckmarkItem>
+                <CheckmarkItem>
+                  Full access to{' '}
+                  <a className={styles.link} href="https://terminalgraph.com" target="_blank">
+                    Terminal Graph
+                  </a>
+                  , our flagship product.
+                </CheckmarkItem>
                 <CheckmarkItem>Free personal blog on TXT.DEV.</CheckmarkItem>
                 <CheckmarkItem>Access to all new products and games.</CheckmarkItem>
                 <CheckmarkItem>No limits.</CheckmarkItem>

@@ -71,43 +71,46 @@ export default async function Page(props) {
       </Script> */}
       <div style={{ lineHeight: '1.6', maxWidth: 768 }}>Showcase — Take a look at what we have done with this template.</div>
       <div>
-        <ListItem href="https://sacred.computer" index={Utilities.leftPad(`1`, 4)} isWIP>
+        <ListItem href="https://terminalgraph.com" index={Utilities.leftPad(`1`, 4)}>
+          terminalgraph.com — our flagship product
+        </ListItem>
+        <ListItem href="https://sacred.computer" index={Utilities.leftPad(`2`, 4)} isWIP>
           sacred.computer
         </ListItem>
-        <ListItem href="https://marble.place" index={Utilities.leftPad(`2`, 4)} isWIP>
+        <ListItem href="https://marble.place" index={Utilities.leftPad(`3`, 4)} isWIP>
           marble.place
         </ListItem>
-        <ListItem href="https://txt.dev" index={Utilities.leftPad(`3`, 4)}>
+        <ListItem href="https://txt.dev" index={Utilities.leftPad(`4`, 4)}>
           txt.dev
         </ListItem>
-        <ListItem href="https://internet.dev" index={Utilities.leftPad(`4`, 4)}>
+        <ListItem href="https://internet.dev" index={Utilities.leftPad(`5`, 4)}>
           internet.dev
         </ListItem>
-        <ListItem href="https://github.com/internet-development/nextjs-css-agent-components" index={Utilities.leftPad(`5`, 4)} isWIP>
+        <ListItem href="https://github.com/internet-development/nextjs-css-agent-components" index={Utilities.leftPad(`6`, 4)} isWIP>
           nextjs-css-agent-components source code
         </ListItem>
-        <ListItem href="https://servermono.com" index={Utilities.leftPad(`6`, 4)}>
+        <ListItem href="https://servermono.com" index={Utilities.leftPad(`7`, 4)}>
           servermono.com
         </ListItem>
-        <ListItem href="https://users.garden" index={Utilities.leftPad(`7`, 4)} isWIP>
+        <ListItem href="https://users.garden" index={Utilities.leftPad(`8`, 4)} isWIP>
           users.garden
         </ListItem>
-        <ListItem href="https://beautifulthings.xyz" index={Utilities.leftPad(`8`, 4)} isWIP>
+        <ListItem href="https://beautifulthings.xyz" index={Utilities.leftPad(`9`, 4)} isWIP>
           beautifulthings.xyz
         </ListItem>
-        <ListItem href="https://flagpost.org" index={Utilities.leftPad(`9`, 4)} isWIP>
+        <ListItem href="https://flagpost.org" index={Utilities.leftPad(`10`, 4)} isWIP>
           flagpost.org
         </ListItem>
-        <ListItem href="https://github.com/internet-development/nextjs-offline-whisper-to-llm" index={Utilities.leftPad(`10`, 4)} isWIP>
+        <ListItem href="https://github.com/internet-development/nextjs-offline-whisper-to-llm" index={Utilities.leftPad(`11`, 4)} isWIP>
           nextjs-offline-whisper-to-llm source code
         </ListItem>
-        <ListItem href="https://github.com/internet-development/nextjs-intdev-services-auth-payments" index={Utilities.leftPad(`11`, 4)} isWIP>
+        <ListItem href="https://github.com/internet-development/nextjs-intdev-services-auth-payments" index={Utilities.leftPad(`12`, 4)} isWIP>
           nextjs-intdev-services-auth-payments
         </ListItem>
-        <ListItem href="https://devfolio.page" index={Utilities.leftPad(`12`, 4)}>
+        <ListItem href="https://devfolio.page" index={Utilities.leftPad(`13`, 4)}>
           devfolio.page
         </ListItem>
-        <ListItem href="https://omnipost.onrender.com" index={Utilities.leftPad(`13`, 4)}>
+        <ListItem href="https://omnipost.onrender.com" index={Utilities.leftPad(`14`, 4)}>
           omnipost
         </ListItem>
       </div>

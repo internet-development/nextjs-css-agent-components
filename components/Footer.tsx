@@ -84,6 +84,9 @@ export default function Footer(props) {
           </a>
         </div>
         <div className={styles.right}>
+          <a href="https://terminalgraph.com" className={styles.subItem} target="_blank">
+            Terminal Graph
+          </a>
           <a href="https://bsky.app/profile/internetstudio.bsky.social" className={styles.subItem} target="_blank">
             Bluesky
           </a>

@@ -123,7 +123,11 @@ export default function DemoDocumentationConceptOne(props) {
             <div>
               Welcome to the Internet Development Studio Company. Each person here is given one roll of two twenty-sided dice each day. What you roll becomes your directive for the
               day. Following it keeps you in good standing with the janitors. But don’t worry,they are not ones to hold grudges. They forget quickly, as if they understand that we
-              are all just doing our best to follow whatever the world throws at us.
+              are all just doing our best to follow whatever the world throws at us. When your directive is complete, chart your progress on{' '}
+              <a href="https://terminalgraph.com" target="_blank">
+                Terminal Graph
+              </a>
+              , our flagship product.
             </div>
 
             <br />

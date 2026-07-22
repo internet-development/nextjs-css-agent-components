@@ -8,7 +8,8 @@ import { H1, H2, H3, H4, Lead, SubLead, P, Title, Text, SubTitle, SubText, UnitL
 import { FormHeading, FormSubHeading, FormParagraph, InputLabel } from '@elements/type/forms';
 
 export default function DemoApplicationSite(props) {
-  const name = `Prototype`;
+  const name = `Terminal Graph`;
+  const link = `https://terminalgraph.com`;
 
   return (
     <>
@@ -21,17 +22,26 @@ export default function DemoApplicationSite(props) {
             <div className={styles.content}>
               <H2>Be simple, be direct</H2>
               <Lead style={{ marginTop: `0.5rem` }}>
-                <strong>{name}</strong> is the only clear and valuable product in the world today.
+                <strong>
+                  <a href={link} target="_blank">
+                    {name}
+                  </a>
+                </strong>{' '}
+                is the only clear and valuable product in the world today.
               </Lead>
               <div className={styles.actionsWeb} style={{ marginTop: 24 }}>
-                <Button style={{ display: 'inline-block', fontSize: '20px' }}>Get for macOS</Button>
+                <Button href={link} target="_blank" style={{ display: 'inline-block', fontSize: '20px' }}>
+                  Get for macOS
+                </Button>
                 <Title style={{ margin: 24 }}>More platforms</Title>
               </div>
             </div>
           </div>
         </div>
         <div className={styles.actionsMobile} style={{ marginTop: 24 }}>
-          <Button style={{ width: `100%`, fontSize: '20px' }}>Get for macOS</Button>
+          <Button href={link} target="_blank" style={{ width: `100%`, fontSize: '20px' }}>
+            Get for macOS
+          </Button>
           <Title style={{ marginTop: `2rem`, textAlign: 'center' }}>More platforms</Title>
         </div>
       </div>
@@ -46,7 +56,12 @@ export default function DemoApplicationSite(props) {
         <div className={styles.body}>
           <div className={styles.bodyContent}>
             <H3>
-              <strong>{name}</strong> captures your wildest imagination
+              <strong>
+                <a href={link} target="_blank">
+                  {name}
+                </a>
+              </strong>{' '}
+              captures your wildest imagination
             </H3>
             <SubLead style={{ marginTop: `1rem` }}>
               From dramatic workflow flexibility to next-generation usability, see what you can do with our most powerful product yet.
@@ -141,7 +156,9 @@ export default function DemoApplicationSite(props) {
         <div className={styles.body} style={{ textAlign: 'center' }}>
           <H3 style={{ marginTop: `8rem` }}>It's your chance to try</H3>
           <div style={{ marginTop: `2rem`, marginBottom: `8rem` }}>
-            <Button style={{ display: 'inline-block', fontSize: '20px' }}>Get {name}</Button>
+            <Button href={link} target="_blank" style={{ display: 'inline-block', fontSize: '20px' }}>
+              Get {name}
+            </Button>
           </div>
         </div>
 
