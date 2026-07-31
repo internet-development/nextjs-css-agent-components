@@ -398,7 +398,7 @@ function ExampleSOW(props) {
               <section className={Utilities.classNames(styles.column, styles.shaded)}></section>
               <section className={Utilities.classNames(styles.column, styles.subshaded)}>7.2. Assignment</section>
               <section className={styles.remainder}>
-                {supplier.name} (“{supplier.shorthand}”) hereby assigns to Parallel Web Systems all rights, title, and interest in and to all intellectual property created under
+                {supplier.name} (“{supplier.shorthand}”) hereby assigns to {client.name || 'Client'} all rights, title, and interest in and to all intellectual property created under
                 this SOW, including all copyrights, patents, trade secrets, and other proprietary rights. {supplier.shorthand} permanently relinquishes any claim, ownership, or
                 rights to use, copy, distribute, modify, open-source, or otherwise exploit any work product created under this agreement.
               </section>
@@ -496,7 +496,7 @@ function ExampleSOW(props) {
               <section className={Utilities.classNames(styles.column, styles.shaded)}></section>
               <section className={Utilities.classNames(styles.column, styles.subshaded)}>8.4. Return of Materials</section>
               <section className={styles.remainder}>
-                Upon completion or termination of this SOW, {supplier.name} (“{supplier.shorthand}”) shall promptly return or destroy all Parallel Web Systems materials, code,
+                Upon completion or termination of this SOW, {supplier.name} (“{supplier.shorthand}”) shall promptly return or destroy all {client.name || 'Client'} materials, code,
                 documents, and confidential information in their possession and provide written certification of such destruction if requested.
               </section>
             </section>
