@@ -196,7 +196,8 @@ function ExampleSOW(props) {
             <br />
             <br />
             {supplier.shorthand} will maintain continuous service coverage throughout the SOW Term by ensuring that at least one qualified member of its project roster is available
-            on a full-time basis, seven days a week. This staffing model is designed to accommodate occasional federal holidays and customary vacation periods taken by individual{' '}
+            on a full-time basis for communication at any time, seven days a week. It is implied that all members of {supplier.shorthand}’s project roster are working full time. This
+            staffing model is designed to accommodate occasional federal holidays and customary vacation periods taken by individual{' '}
             {supplier.shorthand} personnel without diminishing the overall level of service provided to Client. {supplier.shorthand}’s resource planning and service allocation
             include sufficient buffer capacity to support timely delivery of the contracted services within the agreed period.
             <br />
@@ -288,8 +289,9 @@ function ExampleSOW(props) {
           <section className={Utilities.classNames(styles.serviceColumn)}></section>
           <section className={Utilities.classNames(styles.serviceColumn, styles.right)}>4.4.6. Maintenance</section>
           <section className={styles.serviceRemainder}>
-            {supplier.shorthand} commits to ensuring the seamless operation of web services, supporting a minimum of 5,000 active users monthly and accommodating up to 1,000,000
-            page visits each month.
+            {supplier.shorthand} will provision and operate infrastructure designed to support sustained loads of up to 200 transactions per second (TPS) at no additional cost to
+            Client. Should sustained demand exceed this threshold, {supplier.shorthand} will notify Client, and the parties will agree in writing on scaling and any associated cost
+            adjustments before proceeding.
           </section>
         </section>
 
@@ -360,7 +362,10 @@ function ExampleSOW(props) {
             <section className={Utilities.classNames(styles.column, styles.shaded)}></section>
             <section className={Utilities.classNames(styles.column, styles.subshaded)}>5.4. Expenses</section>
             <section className={styles.remainder}>
-              <strong>[{supplier.shorthand}’s expenses are included in the fees in SOW Section 5.1 (Fees). No other expenses will be reimbursed.]</strong>
+              <strong>
+                [{supplier.shorthand} is solely responsible for and covers its own expenses. All of {supplier.shorthand}’s expenses are already included in the fees in SOW Section
+                5.1 (Fees), and {client.name} will not reimburse {supplier.shorthand} for any expenses.]
+              </strong>
             </section>
           </section>
         ) : null}

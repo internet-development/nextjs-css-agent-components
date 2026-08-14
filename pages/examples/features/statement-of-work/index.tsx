@@ -358,8 +358,8 @@ function ExampleStatementOfWorks(props) {
               value={updates.service_maintenance}
               style={{ marginTop: 8 }}
             >
-              Your team will commit to ensuring the seamless operation of web services, supporting a minimum of 5,000 active users monthly and accommodating up to 1,000,000 page
-              visits each month.
+              Your team will provision and operate infrastructure designed to support sustained loads of up to 200 transactions per second (TPS) at no additional cost to the
+              Client. Should sustained demand exceed this threshold, your team will notify the Client and agree on scaling and any associated cost adjustments before proceeding.
             </Checkbox>
             <Checkbox
               name="service_launch"
