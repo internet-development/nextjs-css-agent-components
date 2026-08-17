@@ -30,7 +30,7 @@ export default function DemoApplicationSite(props) {
                 is the only clear and valuable product in the world today.
               </Lead>
               <div className={styles.actionsWeb} style={{ marginTop: 24 }}>
-                <Button href={link} target="_blank" style={{ display: 'inline-block', fontSize: '20px' }}>
+                <Button href={link} target="_blank" style={{ fontSize: '20px' }}>
                   Get for macOS
                 </Button>
                 <Title style={{ margin: 24 }}>More platforms</Title>
@@ -156,7 +156,7 @@ export default function DemoApplicationSite(props) {
         <div className={styles.body} style={{ textAlign: 'center' }}>
           <H3 style={{ marginTop: `8rem` }}>It's your chance to try</H3>
           <div style={{ marginTop: `2rem`, marginBottom: `8rem` }}>
-            <Button href={link} target="_blank" style={{ display: 'inline-block', fontSize: '20px' }}>
+            <Button href={link} target="_blank" style={{ fontSize: '20px' }}>
               Get {name}
             </Button>
           </div>
