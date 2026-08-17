@@ -54,6 +54,11 @@ export const TEMPLATE_EXAMPLES_COMPONENTS = [
     href: '/examples/components/gradient-button',
   },
   {
+    name: 'Components ➝ inline loaders',
+    href: '/examples/components/inline-loaders',
+    label: 'Inline loaders',
+  },
+  {
     name: 'Components ➝ navigation, hero section',
     href: '/examples',
     label: 'Hero marketing',
