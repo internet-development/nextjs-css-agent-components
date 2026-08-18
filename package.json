@@ -2,7 +2,7 @@
   "name": "nextjs-css-agent-components",
   "description": "A vanilla-CSS Next.js component library from the Internet Development Studio team, designed to be readable, copyable, and friendly to AI coding agents.",
   "engines": {
-    "node": ">=18"
+    "node": ">=22"
   },
   "license": "MIT",
   "version": "2.0.4",
