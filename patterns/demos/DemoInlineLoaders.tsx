@@ -151,7 +151,7 @@ export default function DemoInlineLoaders(props) {
   const [finished, setFinished] = React.useState({});
 
   React.useEffect(() => {
-    const timers = [];
+    const timers: number[] = [];
 
     METRICS.forEach((metric) => {
       timers.push(window.setTimeout(() => setArrived((previous) => ({ ...previous, [metric.key]: true })), metric.delay));

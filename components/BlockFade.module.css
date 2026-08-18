@@ -2,21 +2,18 @@
   width: 100%;
   height: 100%;
   display: inline-block;
+  animation: cubic-bezier(0.19, 1, 0.22, 1) fade var(--fade-duration) backwards;
+  animation-delay: var(--fade-delay);
+}
 
-  @keyframes fade {
-    from {
-      transform: translate(var(--fade-initial-x), var(--fade-initial-y));
-      opacity: 0;
-    }
-
-    to {
-      transform: translate(0, 0);
-      opacity: 100%;
-    }
+@keyframes fade {
+  from {
+    transform: translate(var(--fade-initial-x), var(--fade-initial-y));
+    opacity: 0;
   }
 
-  & {
-    animation: cubic-bezier(0.19, 1, 0.22, 1) fade var(--fade-duration) backwards;
-    animation-delay: var(--fade-delay);
+  to {
+    transform: translate(0, 0);
+    opacity: 100%;
   }
 }
